@@ -2,7 +2,14 @@ body{
     margin: 0;
     padding: 0;
     background-color:whitesmoke ;
+    color: black;
 }
+.mydark{
+  
+    background-color:black;
+    color:white !important ;
+}
+
 
 
 a{ 
@@ -148,6 +155,40 @@ header{
     margin-top: 2%;
     margin-bottom: 2%;
     
+}
+
+#cupon{
+    height: 300px;
+    width: 600px;
+    border: 2px groove darkgray;
+    background-color:white;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 45%;
+    z-index: 100;
+    visibility: hidden;
+}
+.heading-cupon{
+    width: 100%;
+}
+.header-cupon{
+    margin-left: 50%;
+    width: fit-content;
+    text-align: center;
+}
+.close-cupon{
+    display: inline !important;
+    width: auto;
+    margin-left: 93%;
+    margin-top: 0%;
+    padding: 0;
+    /* border: 2px solid yellow !important; */
+}
+.copan-pera-div{
+    width: fit-content;
+    border: 2px solid darkgray;
+    padding: 1rem;
+    border-radius: 10px;
 }
 .slideImage{
     margin-top: 190px;
